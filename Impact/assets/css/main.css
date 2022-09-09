@@ -776,11 +776,13 @@ section {
 }
 
 .clients .swiper-slide img {
+
   transition: 0.3s;
 }
 
+
 .clients .swiper-slide img:hover {
-  transform: scale(1.1);
+  transform: scale(0.5);
 }
 
 .clients .swiper-pagination {
@@ -1231,6 +1233,12 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
+
+.portfolio-details {
+  height: 4000px;
+}
+
+
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }

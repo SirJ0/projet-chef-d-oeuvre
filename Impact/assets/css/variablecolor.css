@@ -22,3 +22,14 @@
     color: rgb(87, 84, 84);
 
 }
+
+.portfolio-info {
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+.iPhone {
+    position: absolute;
+    left: 45%;
+}
