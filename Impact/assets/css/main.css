@@ -64,7 +64,7 @@ section {
 }
 
 .sections-bg {
-  background-color: #f6f6f6;
+  background-color: #fdfdfd;
 }
 
 .section-header {
@@ -1407,23 +1407,34 @@ section {
 /*--------------------------------------------------------------
 # Our Team Section
 --------------------------------------------------------------*/
-.team .member {
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
   text-align: center;
   background: #fff;
   border-radius: 10px;
   padding: 15px;
   overflow: hidden;
-  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 25px rgb(0 0 0 / 10%);
+}
+.team .card .social a{
+  display: inline-block;
+  color: #a2a2a2;
+  transition: 0.3s;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #bbbbbb;
 }
 
-.team .member img {
-  border-radius: 10px;
-  overflow: hidden;
-}
 
-.team .member .member-content {
-  padding: 0 20px 30px 20px;
-}
+
+
+
 
 .team .member h4 {
   font-weight: 700;
@@ -1923,7 +1934,7 @@ section {
 .hero {
   width: 100%;
   position: relative;
-  background: var(--color-primary);
+  background: rgb(43, 86, 166);
   padding: 60px 0 0 0;
 }
 
