@@ -30,6 +30,7 @@
 }
 
 .iPhone {
+    margin-top: -2%;
     position: absolute;
     left: 45%;
 }
@@ -51,4 +52,25 @@
 .btn-outline-secondary:hover{
     border-radius: 100px;
     background-color: rgb(195, 195, 195);
+}
+
+.SE {
+    margin-top: 8%;
+}
+
+.text-screen {
+    position: absolute;
+    left: 65%;
+    top: 75%;
+}
+
+.bar {
+    position: absolute;
+    left: 47%;
+    top: 74%;
+    background-color: black;
+    width: 10px;
+    height: 550px;
+    color: blue;
+    border-radius: 10px;
 }
