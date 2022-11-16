@@ -49,7 +49,7 @@
     border-radius: 100px;
 }
 
-.btn-outline-secondary:hover{
+.btn-outline-secondary:hover {
     border-radius: 100px;
     background-color: rgb(195, 195, 195);
 }
@@ -83,8 +83,8 @@
 
 .A15 img {
     position: relative;
-    width : 120px;
-    height : 120px;
+    width: 120px;
+    height: 120px;
     margin-top: -2%;
     margin-bottom: 5%;
     left: 44.2%;
@@ -93,23 +93,13 @@
 .A15 span {
     font-weight: 500;
     font-size: 35px;
-    background-image: linear-gradient(90deg,#9f310e,#e34912);
+    background-image: linear-gradient(90deg, #9f310e, #e34912);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.zoom{  
-    height:100vh;  
-    width:100%;  
-    display:grid;  
-    place-items:center;  
-    position:fixed;  
-    top:0;  
-    left:0;
-}
-
-.textzoom {
+.imgzoom {
     position: absolute;
-    left: 35%;
-    top: 140%;
+    left: 30%;
+    top: 160%;
 }

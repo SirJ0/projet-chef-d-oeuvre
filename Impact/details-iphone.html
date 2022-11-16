@@ -124,21 +124,21 @@
                                 <h2>iPhone SE
                                 </h2>
                             </div>
-                      
+
                             <div class="SE">
                                 <img src="https://drive.google.com/uc?id=1jG5EztgAaxfrP85Covr6ZZyb1MTbygFl"
                                     class="img-fluid" alt="">
-                                  
+
 
                                 <div class="iPhone">
-                                    
+
                                     <h2>Écran
                                     </h2>
                                     <br>
                                 </div>
                                 <div class="SE">
                                     <img src="https://drive.google.com/uc?id=1q1vfLFmFq9wSmgHiRTKgqWLnlUrhM2q9"
-                                    class="img-fluid" alt="">
+                                        class="img-fluid" alt="">
                                     <div class="bar"></div>
                                     <div class="text-screen">Écran Retina HD
                                         <br><br>
@@ -159,33 +159,37 @@
                                         Revêtement oléophobe résistant aux traces de doigts
                                         Zoom de l’écran
                                         <br><br>
-                                        Accès facile</div>
+                                        Accès facile
+                                    </div>
                                 </div>
-                            <div class="A15">
-                                <img src="https://drive.google.com/uc?id=1gExPGPYpow8wP60GBkNOr0Pv2nOODeFV">
-                               <p>L’iPhone SE bénéficie de la même puce surpuissante que l’iPhone 13 :
-la puce <span class="gradient">A15</span> Bionic.</p>
+                                <div class="A15">
+                                    <img src="https://drive.google.com/uc?id=1gExPGPYpow8wP60GBkNOr0Pv2nOODeFV">
+                                    <p>L’iPhone SE bénéficie de la même puce surpuissante que l’iPhone 13 :
+                                        la puce <span class="gradient">A15</span> Bionic.</p>
+
+                                </div>
 
                             </div>
-                                   
+
+                            <div class="imgzoom">
+                                <img src="https://drive.google.com/uc?id=1h72nj6ZkRPfxGMkbO4jgwoNbpOK4LDbl">
                             </div>
 
-                            <div class ="textzoom"><h1> Zoom meeeee </h1></div>
-                           
-                                <script>
-                                    const zoomElement = document.querySelector(".textzoom");
-let zoom = 1;
-const ZOOM_SPEED = 0.1;
+                            <script>
+                                const zoomElement = document.querySelector(".imgzoom");
+                                let zoom = 1;
+                                const ZOOM_SPEED = 0.1;
 
-document.addEventListener("wheel", function(e) {  
-    
-    if(e.deltaY > 0){    
-        zoomElement.style.transform = `scale(${zoom += ZOOM_SPEED})`;  
-    }else{    
-        zoomElement.style.transform = `scale(${zoom -= ZOOM_SPEED})`;  }
+                                document.addEventListener("wheel", function (e) {
 
-});
-                                </script>
+                                    if (e.deltaY > 0) {
+                                        zoomElement.style.transform = `scale(${zoom += ZOOM_SPEED})`;
+                                    } else {
+                                        zoomElement.style.transform = `scale(${zoom -= ZOOM_SPEED})`;
+                                    }
+
+                                });
+                            </script>
 
 
 
