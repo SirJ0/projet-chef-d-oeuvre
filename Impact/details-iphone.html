@@ -131,6 +131,7 @@
                                   
 
                                 <div class="iPhone">
+                                    
                                     <h2>Écran
                                     </h2>
                                     <br>
@@ -160,8 +161,34 @@
                                         <br><br>
                                         Accès facile</div>
                                 </div>
+                            <div class="A15">
+                                <img src="https://drive.google.com/uc?id=1gExPGPYpow8wP60GBkNOr0Pv2nOODeFV">
+                               <p>L’iPhone SE bénéficie de la même puce surpuissante que l’iPhone 13 :
+la puce <span class="gradient">A15</span> Bionic.</p>
+
+                            </div>
                                    
                             </div>
+
+                            <div class ="textzoom"><h1> Zoom meeeee </h1></div>
+                           
+                                <script>
+                                    const zoomElement = document.querySelector(".textzoom");
+let zoom = 1;
+const ZOOM_SPEED = 0.1;
+
+document.addEventListener("wheel", function(e) {  
+    
+    if(e.deltaY > 0){    
+        zoomElement.style.transform = `scale(${zoom += ZOOM_SPEED})`;  
+    }else{    
+        zoomElement.style.transform = `scale(${zoom -= ZOOM_SPEED})`;  }
+
+});
+                                </script>
+
+
+
                             </head>
 
                             <body>
