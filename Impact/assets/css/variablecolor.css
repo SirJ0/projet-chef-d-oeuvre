@@ -100,6 +100,23 @@
 
 .imgzoom {
     position: absolute;
-    left: 30%;
-    top: 160%;
+    left: 19%;
+    top: 125%;
+    width: 10px;
+    height: 10px;
+}
+
+.perf {
+    position: absolute;
+    top: 145%;
+    right: 38%;
+    font-size: 31px;
+}
+
+.perf span {
+    font-weight: 500;
+    font-size: 35px;
+    background-image: linear-gradient(90deg, #9f310e, #e34912);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
