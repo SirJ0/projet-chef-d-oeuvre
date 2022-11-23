@@ -97,16 +97,17 @@
                             </div>
 
                             <div class="swiper-slide">
-                                <img src="https://drive.google.com/uc?id=1iElcKD56DXLUzOs_EXdzhN29kOk3L78b" alt="">
+                                <img src="https://drive.google.com/uc?id=16gxfPtabdkKE5yY3cpvuM10cnFCAaEh8" alt="">
                             </div>
 
                             <div class="swiper-slide">
-                                <img src="https://drive.google.com/uc?id=18lkcitO5rTiJJsGhPROOFDEtpUgk_1aX" alt="">
+                                <img src="https://drive.google.com/file/d/1dnh_BRFkTYxZsEIqI4hZNYoG16oH81XC" alt="">
                             </div>
 
                             <div class="swiper-slide">
                                 <img src="https://drive.google.com/uc?id=1umzEzd6H_OKRu1cYnmLcc-0hamTKg6O2" alt="">
                             </div>
+                            
 
                         </div>
                         <div class="swiper-pagination"></div>
@@ -181,28 +182,17 @@
                             <div class="imgzoom">
                                 <img src="https://drive.google.com/uc?id=1h72nj6ZkRPfxGMkbO4jgwoNbpOK4LDbl">
                            </div>
-                            <script>
-                                const zoomElement = document.querySelector(".imgzoom .perf");
-                                let zoom = 1;
-                                const ZOOM_SPEED = 0.01;
 
-                                document.addEventListener("wheel", function (e) {
+  <div class="SE"></div>
 
-                                    if (e.deltaY > 0) {
-                                        zoomElement.style.transform = `scale(${zoom += ZOOM_SPEED})`;
-                                    } else {
-                                        zoomElement.style.transform = `scale(${zoom -= ZOOM_SPEED})`;
-                                    }
 
-                                });
-                            </script>
 
 
 
                             </head>
 
                             <body>
-                                <div class="SE"></div>
+                              
                         </div>
 
 
@@ -297,6 +287,24 @@
     <div id="preloader"></div>
 
     <!-- Vendor JS Files -->
+    
+    <script>
+                                
+        const zoomElement = document.querySelector(".imgzoom");
+        let zoom = 1;
+        const ZOOM_SPEED = 0.01;
+
+        document.addEventListener("wheel", function (e) {
+
+            if (e.deltaY > 0) {
+                zoomElement.style.transform = `scale(${zoom += ZOOM_SPEED})`;
+            } else {
+                zoomElement.style.transform = `scale(${zoom -= ZOOM_SPEED})`;
+            }
+
+        });
+</script>
+
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
