@@ -29,11 +29,6 @@
 
 }
 
-.iPhone {
-    margin-top: 1%;
-    position: absolute;
-    left: 45%;
-}
 
 .box {
     position: relative;
@@ -54,71 +49,71 @@
     background-color: rgb(195, 195, 195);
 }
 
-.SE {
-    margin-top: 8%;
+.A14 {
+    position: relative;
+    margin-top: 30%;
+    font-size: 31px;
 }
 
-.text-screen {
-    position: absolute;
-    left: 65%;
-    top: 75%;
+.A14 img {
+    position: relative;
+    width: 200px;
+    height: 180px;
+    margin-top: 80%;
+    margin-bottom: 5%;
+    left: 60%;
+}
+
+.A14 p {
+    position: relative;
+    left: 25%;
+}
+
+.écran {
+    position: relative;
 }
 
 .bar {
+    margin-top: 2%;
     position: absolute;
-    left: 47%;
-    top: 74%;
+    left: 72%;
     background-color: rgb(15, 15, 15);
     width: 8px;
-    height: 550px;
+    height: 820px;
     color: blue;
     border-radius: 10px;
 }
 
-.A15 {
+.text-screen {
     position: absolute;
-    margin-top: 20%;
-    font-size: 31px;
+    margin-top: 2%;
+    left: 100%;
+    top: 110%;
+    width: 200px;
 }
 
-.A15 img {
+.screenwitdh {
+    position: absolute;
+    width: 600px;
+    left: 10%;
+}
+
+.screentext {
+    position: absolute;
+    left: 68%;
+    margin-top: -6%;
+}
+
+.iPhone {
+    position: absolute;
+    left: 43%;
+}
+
+.screenweight {
     position: relative;
-    width: 120px;
-    height: 120px;
-    margin-top: -2%;
-    margin-bottom: 5%;
-    left: 44.2%;
+    top: 10%;
+    left: 1%;
 }
 
-.A15 span {
-    font-weight: 500;
-    font-size: 35px;
-    background-image: linear-gradient(90deg, #9f310e, #e34912);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.imgzoom {
-    position: absolute;
-    left: 22%;
-    top: 125%;
-    width: 10px;
-    height: 10px;
-}
-
-.perf {
-    position: absolute;
-    top: 148%;
-    right: 38%;
-    font-size: 31px;
-}
-
-.perf span {
-    font-weight: 500;
-    font-size: 35px;
-    background-image: linear-gradient(90deg, #9f310e, #e34912);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 
