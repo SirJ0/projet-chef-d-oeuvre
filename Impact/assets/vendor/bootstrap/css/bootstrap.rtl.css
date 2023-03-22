@@ -3290,12 +3290,12 @@ textarea.form-control.is-invalid {
     transition: none;
   }
 }
-
+/* 
 .btn:hover {
   color: var(--bs-btn-hover-color);
   background-color: var(--bs-btn-hover-bg);
   border-color: var(--bs-btn-hover-border-color);
-}
+} */
 
 .btn-check:focus+.btn,
 .btn:focus {

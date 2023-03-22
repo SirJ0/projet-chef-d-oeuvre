@@ -115,5 +115,41 @@
     left: 1%;
 }
 
+.bouton {
+    border: none;
+    background-color: #0d6efd;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+  }
+  
+  .bouton:hover {
+    transform: scale(1.1);
+  }
+
+  .btn-achat {
+    border: none;
+    background-color: #0d6efd;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+  }
+
+  .btn-achat:hover {
+    transform: scale(1.1);
+  }
+  
 
 
